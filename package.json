@@ -1,0 +1,19 @@
+{
+  "name": "sugg",
+  "version": "1.0.0",
+  "description": "Discord suggestion bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node .source-original/index.js",
+    "build": "javascript-obfuscator ./.source-original --output ./src --compact true --control-flow-flattening true --control-flow-flattening-threshold 1 --dead-code-injection true --dead-code-injection-threshold 0.5 --string-array true --string-array-encoding rc4 --string-array-threshold 1 --self-defending true --debug-protection true --identifier-names-generator mangled-shuffled --rename-globals false --transform-object-keys true --unicode-escape-sequence false"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.0",
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^5.4.2"
+  }
+}
