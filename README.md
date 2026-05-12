@@ -67,13 +67,13 @@ npm run build
 
 ```
 Sugg/
-├── src/                    # كود مشفر (Obfuscated) — لا تقرأ
-├── .source-original/       # النسخة الأصلية القابلة للقراءة (للتطوير)
-├── .env                    # التوكن وإيدي الروم (مقروء)
+├── src/                    
+├── .source-original/      
+├── .env                    
 ├── package.json
-├── PROJECT_MAP.md          # خريطة المشروع الكاملة
-├── LICENSE                 # رخصة MIT
-└── README.md               # هذا الملف
+├── PROJECT_MAP.md       
+├── LICENSE                 
+└── README.md               
 ```
 
 ---
